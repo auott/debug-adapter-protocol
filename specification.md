@@ -2419,7 +2419,7 @@ interface VariablesArguments {
 
   /**
    * The index of the first variable to return; if omitted children start at 0.
-   * If the value of `start` exceeeds the number of available variables, the
+   * If the value of `start` exceeds the number of available variables, the
    * debug adapter should return an empty array.
    * The attribute is only honored by a debug adapter if the corresponding
    * capability `supportsVariablePaging` is true.
